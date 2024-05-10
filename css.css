@@ -1,0 +1,345 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@media only screen and (max-width:600px) {
+    header div footer{
+        font-size: 14px;
+    };
+    
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("headerimg.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    /* background-color:aliceblue; */
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+.logo img{
+    width: 200px;
+    height: 50px;
+    margin-left: 250px;
+}
+.lang
+{
+    padding-top: 25px;
+    margin-left: 550px;    
+}
+.lang button{
+    padding: 2px 15px 2px 15px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.signin button{
+    background-color:red;
+    padding:3px 15px 3px 15px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: 700;
+    margin-right: 250px;
+}
+ button a{
+    text-decoration: none;
+    color: white;
+
+}
+.contain{
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.contain h1{
+    font-size: 48px;
+}
+.contain p{
+    font-size: 24px;
+}
+.contain input{
+    padding: 15px 200px 15px 10px;
+    font-size: 1rem;
+    font-family: Arial;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.contain button{
+    padding: 10px 15px 10px 15px;
+    font-size: 1.3rem;
+    font-family:Arial;
+    font-weight: 700;
+    color:white;
+    background-color:red;
+    border: 1px solid red;
+    border-radius: 5px;
+} 
+/* header end */
+.box 
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-top: 5px solid grey;
+    border-radius: 3px;
+   
+}
+.feature1 h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.feature1 p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.fimg img{
+    width: 500px;
+    height: 300px;
+}
+/* feature1 end  */
+.feature2 h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.feature2 p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* footer */
+.foot-panel1 a{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.90rem;
+    text-decoration: none;
+}
+.foot
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.foot-1 a{
+    color:#ffffffB3;
+}
+.btn1
+{
+    padding: 2px 15px 2px 15px;
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.none
+{
+    text-decoration: none;
+}
+/* Sing_in */
+.grid{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("headerimg.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.net img
+{
+    width: 350px;
+    height: 70px;
+    padding: 20px 0px 0px 170px;
+}
+/* .sing{
+    border: 5px solid red;
+} */
+.container{
+    color: white;
+}
+.fbtn 
+{
+    padding: 7px 135px 7px 135px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0.30rem;
+
+}
+.fbtn a
+{
+    text-decoration: none;
+    color: white;
+}
+.option{
+    padding: 15px 0px 15px 0px;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: 300;
+    margin-left: 150px;
+}
+.sbtn
+{
+    padding: 7px 90px 7px 90px;
+    background-color: grey;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0.30rem;
+}
+.forget
+{
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-size: 1rem;
+    font-family: arial;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.remember
+{
+    padding: 20px 0px 20px 0px;
+}
+
+.s1{
+    color: #ffffffB3;
+    padding: 10px 0px 10px 0px ;
+}
+.s1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.s2{
+    color: #8c8c8c;
+    font-size: 0.70rem;
+    font-family: arial;
+}
+/* Footer */
+.singfoot{
+    margin-top: 610px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000000B3;
+}
+.div0{
+    display: flex;
+    justify-content:space-around
+}
+/* forget page */
+.hed{
+    display: flex;
+    justify-content: space-between;
+}
+.hed1 img{
+    width: 200px;
+    height: 50px;
+    padding: 20px 0px 0px 50px ;
+}
+.fsign{
+    padding: 25px 50px 0px 0px;
+}
+.fsign a{
+    color: red;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.for1{
+    
+    /* text-align: center; */
+    margin-left: 550px;
+    margin-right: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    max-width: 450px;
+    min-height: 40vh;
+    /* border: 2px solid red; */
+    background-color: #f3f3f3;
+}
+.for1 h1{
+    margin-left: 30px;
+}
+.for1 p{
+    margin-left: 30px;
+    color: #333333;
+}
+.radio1{
+    padding-top:  15px;
+    margin-left: 50px;
+    color: #333333;
+    font-family: arial;
+    font-size: 1rem;
+}
+.radio2{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+    color: #333333;
+    font-family: arial;
+    font-size: 1rem;
+}
+.text{
+    padding: 14px 80px;
+    margin-left: 30px;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.emailme{
+    padding: 14px 135px;
+    margin-left: 30px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #0080ff;
+}
+.for1 a{
+    /* padding: 20px; */
+    margin-left: 30px;
+    color: #0080ff;
+    /* text-decoration: none; */
+}
+.nexttext{
+    padding-top: 20px;
+    margin-left: 550px;
+    color: #999999;
+    font-family: Arial;
+    font-size: 0.95rem;
+}
+.nexttext a{
+    color: #999999;
+}
